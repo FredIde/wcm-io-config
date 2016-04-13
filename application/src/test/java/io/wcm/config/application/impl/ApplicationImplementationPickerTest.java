@@ -17,7 +17,7 @@
  * limitations under the License.
  * #L%
  */
-package io.wcm.config.core.impl;
+package io.wcm.config.application.impl;
 
 import static org.junit.Assert.assertSame;
 import static org.mockito.Mockito.when;
@@ -31,8 +31,8 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
 
-import io.wcm.config.core.management.Application;
-import io.wcm.config.core.management.ApplicationFinder;
+import io.wcm.config.application.api.Application;
+import io.wcm.config.application.api.ApplicationFinder;
 
 @RunWith(MockitoJUnitRunner.class)
 public class ApplicationImplementationPickerTest {

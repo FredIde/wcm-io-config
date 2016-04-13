@@ -20,6 +20,7 @@
 package io.wcm.config.core.management;
 
 import io.wcm.config.api.Configuration;
+import io.wcm.config.application.api.ApplicationFinder;
 
 import java.util.Iterator;
 

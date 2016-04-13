@@ -17,7 +17,7 @@
  * limitations under the License.
  * #L%
  */
-package io.wcm.config.core.impl;
+package io.wcm.config.application.impl;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.felix.scr.annotations.Component;
@@ -28,8 +28,8 @@ import org.apache.sling.api.resource.Resource;
 import org.apache.sling.models.spi.ImplementationPicker;
 import org.osgi.framework.Constants;
 
-import io.wcm.config.core.management.Application;
-import io.wcm.config.core.management.ApplicationFinder;
+import io.wcm.config.application.api.Application;
+import io.wcm.config.application.api.ApplicationFinder;
 
 /**
  * Sling Models {@link ImplementationPicker} implementation that checks if an application is associated

@@ -47,8 +47,8 @@ import com.google.common.collect.Iterators;
 
 import io.wcm.config.api.Configuration;
 import io.wcm.config.api.Parameter;
-import io.wcm.config.core.management.Application;
-import io.wcm.config.core.management.ApplicationFinder;
+import io.wcm.config.application.api.Application;
+import io.wcm.config.application.api.ApplicationFinder;
 import io.wcm.config.core.management.ConfigurationFinder;
 import io.wcm.config.core.management.ParameterOverride;
 import io.wcm.config.core.management.ParameterPersistence;

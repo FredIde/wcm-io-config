@@ -20,9 +20,9 @@
 package io.wcm.config.core.management.impl;
 
 import io.wcm.config.api.Configuration;
+import io.wcm.config.application.api.Application;
+import io.wcm.config.application.api.ApplicationFinder;
 import io.wcm.config.core.impl.ConfigurationImpl;
-import io.wcm.config.core.management.Application;
-import io.wcm.config.core.management.ApplicationFinder;
 import io.wcm.config.core.management.ConfigurationFinder;
 import io.wcm.config.core.management.ParameterResolver;
 import io.wcm.config.spi.ConfigurationFinderStrategy;

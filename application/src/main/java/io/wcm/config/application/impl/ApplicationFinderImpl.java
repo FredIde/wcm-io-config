@@ -17,7 +17,7 @@
  * limitations under the License.
  * #L%
  */
-package io.wcm.config.core.management.impl;
+package io.wcm.config.application.impl;
 
 import java.util.Map;
 import java.util.Set;
@@ -37,9 +37,9 @@ import org.apache.sling.api.resource.Resource;
 import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
 
+import io.wcm.config.application.api.Application;
+import io.wcm.config.application.api.ApplicationFinder;
 import io.wcm.config.application.spi.ApplicationProvider;
-import io.wcm.config.core.management.Application;
-import io.wcm.config.core.management.ApplicationFinder;
 import io.wcm.sling.commons.osgi.RankedServices;
 
 /**

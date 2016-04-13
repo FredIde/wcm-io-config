@@ -17,7 +17,7 @@
  * limitations under the License.
  * #L%
  */
-package io.wcm.config.core.management;
+package io.wcm.config.application.api;
 
 import org.osgi.annotation.versioning.ProviderType;
 
