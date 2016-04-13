@@ -24,9 +24,6 @@ import static org.junit.Assert.assertNotNull;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
-import io.wcm.config.core.management.Application;
-import io.wcm.config.spi.ApplicationProvider;
-import io.wcm.sling.commons.resource.ImmutableValueMap;
 
 import java.util.Map;
 import java.util.Set;
@@ -40,6 +37,10 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
 import org.osgi.framework.Constants;
+
+import io.wcm.config.application.spi.ApplicationProvider;
+import io.wcm.config.core.management.Application;
+import io.wcm.sling.commons.resource.ImmutableValueMap;
 
 @RunWith(MockitoJUnitRunner.class)
 public class ApplicationFinderImplTest {

@@ -18,7 +18,7 @@
  * #L%
  */
 /**
- * Convenience partial abstract SPI implementations.
+ * SPI for detecting applications.
  */
 @org.osgi.annotation.versioning.Version("1.0.0")
-package io.wcm.config.spi.helpers;
+package io.wcm.config.application.spi;

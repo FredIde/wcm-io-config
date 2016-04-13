@@ -18,7 +18,7 @@
  * #L%
  */
 /**
- * Annotations for annotating Sling Models implementations.
+ * Convenience partial abstract SPI implementations.
  */
-@org.osgi.annotation.versioning.Version("0.5.0")
-package io.wcm.config.spi.annotations;
+@org.osgi.annotation.versioning.Version("1.0.0")
+package io.wcm.config.application.spi.helpers;

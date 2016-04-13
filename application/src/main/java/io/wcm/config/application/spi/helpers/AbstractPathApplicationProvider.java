@@ -17,14 +17,14 @@
  * limitations under the License.
  * #L%
  */
-package io.wcm.config.spi.helpers;
-
-import io.wcm.config.spi.ApplicationProvider;
+package io.wcm.config.application.spi.helpers;
 
 import java.util.regex.Pattern;
 
 import org.apache.sling.api.resource.Resource;
 import org.osgi.annotation.versioning.ConsumerType;
+
+import io.wcm.config.application.spi.ApplicationProvider;
 
 /**
  * Abstract implementation of {@link ApplicationProvider} that supports detecting an application based

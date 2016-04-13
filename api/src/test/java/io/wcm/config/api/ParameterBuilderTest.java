@@ -93,7 +93,7 @@ public class ParameterBuilderTest {
 
   @Test(expected = IllegalArgumentException.class)
   public void testInvalidApplicationId() {
-    ParameterBuilder.create("param1", String.class, "app 1").build();
+    ParameterBuilder.create("param1", String.class, "").build();
   }
 
   @Test(expected = IllegalArgumentException.class)

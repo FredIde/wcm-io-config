@@ -32,8 +32,8 @@ public interface ApplicationFinder {
 
   /**
    * Find application that is associated with this resource.
-   * All implementors of {@link io.wcm.config.spi.ApplicationProvider} are enquired in order of service ranking,
-   * the first that accepts the resource as matching wins.
+   * All implementors of {@link io.wcm.config.application.spi.ApplicationProvider} are enquired in order of service
+   * ranking, the first that accepts the resource as matching wins.
    * @param resource Resource
    * @return Application instance if a match was found, otherwise null
    */
